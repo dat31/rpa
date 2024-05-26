@@ -1,0 +1,23 @@
+{
+  "name": "crawl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "weather": "node weather/weather.js",
+    "financial": "node financial/financial.js  && powershell -executionpolicy bypass -file ./financial/img.ps1",
+    "market": "node market/market.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "cheerio": "^1.0.0-rc.12",
+    "file-saver": "^2.0.5",
+    "html2canvas": "^1.4.1",
+    "puppeteer": "^22.10.0",
+    "sharp": "^0.33.4"
+  }
+}
